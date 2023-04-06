@@ -37,3 +37,8 @@ z = 12
 
 hasil = x ** y * z + y / 4 + y - z % x
 print(x,'**',y,'*',z,'+',y,'/',4,'+',y,'-',z,'%',x,'=', hasil)
+
+# kalkulator sederhana
+a = int(input("silahkan masukan nilai1: "))
+b = int(input("silahkan masukan nilai2: "))
+print(a + b)
