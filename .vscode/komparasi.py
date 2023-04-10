@@ -43,3 +43,19 @@ hasil = a == 2
 print("hasil dari ",a," ==",2," =",hasil)
 hasil = b == b
 print("hasil dari ",b," ==",b," =",hasil)
+# Operasi tidak sama dengan (!=)
+print("====Tidak sama dengan====")
+hasil = a != b
+print("hasil dari ",a," !=",b," =",hasil)
+hasil = a != 2
+print("hasil dari ",a," !=",2," =",hasil)
+hasil = a != a
+print("hasil dari ",b," !=",b," =",hasil)
+# Operasi is (is)
+print("====Is====")
+hasil = a is b
+print("hasil dari ",a," is",b," =",hasil)
+hasil = a is 2
+print("hasil dari ",a," is",2," =",hasil)
+hasil = a is a
+print("hasil dari a"," is"," a"," =",hex(id(a)))
